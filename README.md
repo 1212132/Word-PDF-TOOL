@@ -2,21 +2,28 @@
 
 一套 Flutter 代码，同时构建 **Windows 桌面 EXE** 与 **Android 手机 APP**。
 
-## 📱 安卓版下载
+## 📥 下载（推荐从 Releases 下载）
 
-直接下载仓库中的 **`word_pdf_tool_安卓版.apk`**（约 52MB）安装：
+**下载地址：[Releases · v1.0.0](https://github.com/1212132/Word-PDF-/releases/tag/v1.0.0)**
 
-- 支持系统：Android 7.0（API 24）及以上
+| 文件 | 平台 | 说明 |
+|---|---|---|
+| `word_pdf_tool_windows_v1.0.0.zip` | Windows 10/11 64位 | 解压即用，免安装 |
+| `word_pdf_tool_android_v1.0.0.apk` | Android 7.0+ | 直接安装 |
+
+（仓库根目录也有同名中文文件名的备份：`word_pdf_tool_绿色免安装版.zip`）
+
+## 📱 安卓版安装说明
+
 - 安装时需允许「安装未知应用 / 未知来源」权限（不同手机叫法略有差异）
 - 若提示与已安装应用冲突或签名不同，先卸载旧版本再安装
 - 功能与 Windows 版一致：Word/图片转 PDF + 三类压缩，全部本地处理，不联网上传
 
-## 💻 Windows 版下载
+## 💻 Windows 版说明
 
-直接下载仓库中的 **`word_pdf_tool_绿色免安装版.zip`**（约 15MB），解压到任意文件夹，双击 `word_pdf_tool.exe` 即可使用：
 - 无需安装，不写注册表，删除文件夹即卸载
-- 要求：Windows 10（1809+）/ Windows 11，64 位
-- 所有转换与压缩均在本地完成，无任何网络上传
+- 要求：Windows 10（1809+）/ Windows 11，64 位，VC++ 运行库已随包内置
+- Word 转 PDF 高保真模式依赖电脑装有 WPS 或 Office（未安装则自动回退内置引擎）
 - 手机 APP 源码也在本仓库，可用 Flutter 自行打包 APK
 
 ## 功能
