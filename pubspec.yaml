@@ -1,0 +1,38 @@
+name: word_pdf_tool
+description: "Word/图片转 PDF 与文件体积压缩工具（一套代码，桌面 EXE + 手机 APP）"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # PDF 生成（纯 Dart）
+  pdf: ^3.11.3
+  # PDF 页面渲染（PDF 压缩用，支持 Windows/Android/iOS/macOS）
+  pdfx: ^2.11.0
+  # 图片解码/重编码/缩放
+  image: 4.5.4
+  # docx(zip) 解包/打包
+  archive: ^4.0.7
+  # docx XML 解析
+  xml: ^6.5.0
+  # 文件选择（Windows/Android）
+  file_picker: ^10.0.0
+  path_provider: ^2.1.5
+  # 分享（移动端）
+  share_plus: ^11.0.0
+  # 打开输出文件
+  open_filex: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

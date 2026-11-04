@@ -1,0 +1,27 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 工作区私有数据（不上传）
+.workbuddy/
+
+# 本地解压版（与压缩包内容重复，压缩包随仓库分发）
+windows-exe/
+
+# Android 构建产物
+android/.gradle/
+android/local.properties
+android/key.properties
+*.jks
